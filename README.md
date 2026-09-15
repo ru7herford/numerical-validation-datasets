@@ -5,6 +5,19 @@ A small catalog and command-line downloader for numerical validation data.
 The repository contains dataset descriptions and direct download links. The
 data itself is downloaded from its original source and is not committed here.
 
+## Available datasets
+
+- **CFD:** cavity flow, airfoils, jets, separated flows, turbomachinery, and heat transfer
+- **DEM:** particle packing and rolling-clump validation
+- **FEM:** Poisson and elasticity examples
+- **Linear algebra:** sparse matrices and linear systems
+
+```bash
+./download.sh list
+./download.sh download --name onera_m6
+./download.sh download --all
+```
+
 ## Requirements
 
 - Bash
