@@ -1,0 +1,26 @@
+{
+  "name": "sbml_semantic_test_suite",
+  "category": "ode_dae",
+  "title": "SBML Semantic Test Suite 3.5.0",
+  "type": "Deterministic simulator conformance tests",
+  "summary": "SBML models, simulation settings, tolerances, and expected numerical results for testing systems-biology simulators.",
+  "sources": [
+    {
+      "label": "SBML Test Suite release",
+      "url": "https://github.com/sbmlteam/sbml-test-suite/releases/tag/3.5.0"
+    },
+    {
+      "label": "Output comparison documentation",
+      "url": "https://sbml.org/software/sbml-test-suite/docs/evaluating-outputs/"
+    }
+  ],
+  "files": [
+    {
+      "name": "semantic_tests_v3.5.0.zip",
+      "url": "https://github.com/sbmlteam/sbml-test-suite/releases/download/3.5.0/semantic_tests_v3.5.0.zip",
+      "size_bytes": 13046450,
+      "description": "Version 3.5.0 semantic test cases with reference numerical outputs."
+    }
+  ],
+  "license": "LGPL 2.1"
+}

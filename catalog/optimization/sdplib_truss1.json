@@ -1,0 +1,22 @@
+{
+  "name": "sdplib_truss1",
+  "category": "optimization",
+  "title": "SDPLIB truss1",
+  "type": "Semidefinite programming benchmark",
+  "summary": "A small truss topology-design semidefinite program with six constraints and a published optimum near -9.",
+  "sources": [
+    {
+      "label": "SDPLIB repository",
+      "url": "https://github.com/vsdp/SDPLIB"
+    }
+  ],
+  "files": [
+    {
+      "name": "truss1.dat-s",
+      "url": "https://raw.githubusercontent.com/vsdp/SDPLIB/master/data/truss1.dat-s",
+      "size_bytes": 600,
+      "description": "Problem encoded in SDPA sparse format."
+    }
+  ],
+  "license": "GPL-3.0"
+}

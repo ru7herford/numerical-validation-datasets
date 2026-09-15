@@ -1,0 +1,21 @@
+{
+  "name": "miplib_flugpl",
+  "category": "optimization",
+  "title": "MIPLIB 2017 flugpl",
+  "type": "Mixed-integer linear programming benchmark",
+  "summary": "A small airline-planning mixed-integer problem with 18 variables, 18 constraints, and a known optimum of 1201500.",
+  "sources": [
+    {
+      "label": "MIPLIB instance page",
+      "url": "https://miplib.zib.de/instance_details_flugpl.html"
+    }
+  ],
+  "files": [
+    {
+      "name": "flugpl.mps.gz",
+      "url": "https://miplib.zib.de/WebData/instances/flugpl.mps.gz",
+      "size_bytes": 889,
+      "description": "Compressed MPS instance."
+    }
+  ]
+}

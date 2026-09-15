@@ -1,0 +1,25 @@
+{
+  "name": "nist_mgh09",
+  "category": "statistics",
+  "title": "NIST StRD MGH09",
+  "type": "Certified nonlinear-regression reference data",
+  "summary": "Higher-difficulty generated rational-model regression data with 11 observations and four fitted parameters.",
+  "sources": [
+    {
+      "label": "NIST StRD MGH09",
+      "url": "https://www.itl.nist.gov/div898/strd/nls/data/mgh09.shtml"
+    },
+    {
+      "label": "NIST StRD nonlinear regression collection",
+      "url": "https://www.itl.nist.gov/div898/strd/nls/nls_main.shtml"
+    }
+  ],
+  "files": [
+    {
+      "name": "MGH09.dat",
+      "url": "https://www.itl.nist.gov/div898/strd/nls/data/LINKS/DATA/MGH09.dat",
+      "size_bytes": 2393,
+      "description": "ASCII dataset containing observations, starting values, and NIST certified results."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "nist_lanczos3",
+  "category": "statistics",
+  "title": "NIST StRD Lanczos3",
+  "type": "Certified nonlinear-regression reference data",
+  "summary": "Generated exponential-model regression data with 24 observations and six fitted parameters.",
+  "sources": [
+    {
+      "label": "NIST StRD Lanczos3",
+      "url": "https://www.itl.nist.gov/div898/strd/nls/data/lanczos3.shtml"
+    },
+    {
+      "label": "NIST StRD nonlinear regression collection",
+      "url": "https://www.itl.nist.gov/div898/strd/nls/nls_main.shtml"
+    }
+  ],
+  "files": [
+    {
+      "name": "Lanczos3.dat",
+      "url": "https://www.itl.nist.gov/div898/strd/nls/data/LINKS/DATA/Lanczos3.dat",
+      "size_bytes": 2661,
+      "description": "ASCII dataset containing observations, starting values, and NIST certified results."
+    }
+  ]
+}

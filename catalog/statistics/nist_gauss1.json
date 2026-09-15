@@ -1,0 +1,25 @@
+{
+  "name": "nist_gauss1",
+  "category": "statistics",
+  "title": "NIST StRD Gauss1",
+  "type": "Certified nonlinear-regression reference data",
+  "summary": "Generated exponential-model regression data with 250 observations and eight fitted parameters.",
+  "sources": [
+    {
+      "label": "NIST StRD Gauss1",
+      "url": "https://www.itl.nist.gov/div898/strd/nls/data/gauss1.shtml"
+    },
+    {
+      "label": "NIST StRD nonlinear regression collection",
+      "url": "https://www.itl.nist.gov/div898/strd/nls/nls_main.shtml"
+    }
+  ],
+  "files": [
+    {
+      "name": "Gauss1.dat",
+      "url": "https://www.itl.nist.gov/div898/strd/nls/data/LINKS/DATA/Gauss1.dat",
+      "size_bytes": 8417,
+      "description": "ASCII dataset containing observations, starting values, and NIST certified results."
+    }
+  ]
+}

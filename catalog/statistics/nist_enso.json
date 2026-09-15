@@ -1,0 +1,25 @@
+{
+  "name": "nist_enso",
+  "category": "statistics",
+  "title": "NIST StRD ENSO",
+  "type": "Certified nonlinear-regression reference data",
+  "summary": "Average-difficulty observed nonlinear regression data with 168 observations and nine fitted parameters.",
+  "sources": [
+    {
+      "label": "NIST StRD ENSO",
+      "url": "https://www.itl.nist.gov/div898/strd/nls/data/enso.shtml"
+    },
+    {
+      "label": "NIST StRD nonlinear regression collection",
+      "url": "https://www.itl.nist.gov/div898/strd/nls/nls_main.shtml"
+    }
+  ],
+  "files": [
+    {
+      "name": "ENSO.dat",
+      "url": "https://www.itl.nist.gov/div898/strd/nls/data/LINKS/DATA/ENSO.dat",
+      "size_bytes": 6998,
+      "description": "ASCII dataset containing observations, starting values, and NIST certified results."
+    }
+  ]
+}

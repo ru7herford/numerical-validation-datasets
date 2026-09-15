@@ -1,0 +1,28 @@
+{
+  "name": "qplib_0018",
+  "category": "optimization",
+  "title": "QPLIB 0018",
+  "type": "Quadratic programming benchmark",
+  "summary": "An indefinite continuous quadratic program with 50 variables, one linear constraint, and a published solution point.",
+  "sources": [
+    {
+      "label": "QPLIB instance page",
+      "url": "https://qplib.zib.de/QPLIB_0018.html"
+    }
+  ],
+  "files": [
+    {
+      "name": "QPLIB_0018.qplib",
+      "url": "https://qplib.zib.de/qplib/QPLIB_0018.qplib",
+      "size_bytes": 19321,
+      "description": "Problem in the native QPLIB text format."
+    },
+    {
+      "name": "QPLIB_0018.sol",
+      "url": "https://qplib.zib.de/sol/QPLIB_0018.sol",
+      "size_bytes": 260,
+      "description": "Published solution point and objective value."
+    }
+  ],
+  "license": "CC BY 4.0"
+}

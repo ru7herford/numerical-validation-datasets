@@ -1,0 +1,25 @@
+{
+  "name": "nist_rat42",
+  "category": "statistics",
+  "title": "NIST StRD Rat42",
+  "type": "Certified nonlinear-regression reference data",
+  "summary": "Higher-difficulty observed exponential-model regression data with nine observations and three fitted parameters.",
+  "sources": [
+    {
+      "label": "NIST StRD Rat42",
+      "url": "https://www.itl.nist.gov/div898/strd/nls/data/ratkowsky2.shtml"
+    },
+    {
+      "label": "NIST StRD nonlinear regression collection",
+      "url": "https://www.itl.nist.gov/div898/strd/nls/nls_main.shtml"
+    }
+  ],
+  "files": [
+    {
+      "name": "Rat42.dat",
+      "url": "https://www.itl.nist.gov/div898/strd/nls/data/LINKS/DATA/Rat42.dat",
+      "size_bytes": 1945,
+      "description": "ASCII dataset containing observations, starting values, and NIST certified results."
+    }
+  ]
+}

@@ -11,6 +11,9 @@ data itself is downloaded from its original source and is not committed here.
 - **DEM:** particle packing and rolling-clump validation
 - **FEM:** Poisson and elasticity examples
 - **Linear algebra:** sparse matrices and linear systems
+- **ODE/DAE:** simulator conformance tests with expected results
+- **Optimization:** mixed-integer, quadratic, and semidefinite problems
+- **Statistics:** certified regression reference data
 
 ```bash
 ./download.sh list
@@ -104,7 +107,8 @@ download.sh              command-line entry point
 datasets/                local downloads, ignored by Git
 ```
 
-Current catalog categories are `cfd`, `dem`, `fem`, and `linear_algebra`.
+Current catalog categories are `cfd`, `dem`, `fem`, `linear_algebra`, `ode_dae`,
+`optimization`, and `statistics`.
 
 ## Add a dataset
 
