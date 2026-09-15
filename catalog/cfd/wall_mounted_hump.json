@@ -1,0 +1,39 @@
+{
+  "name": "wall_mounted_hump",
+  "title": "NASA wall-mounted hump — experiment",
+  "type": "Experiment",
+  "summary": "Measurements for the NASA wall-mounted-hump separated-flow validation case.",
+  "sources": [
+    {
+      "label": "Pinned TMBWG repository directory",
+      "url": "https://github.com/TMBWG/turbmodels/tree/20a39f549dbff988a6accc421ac84dafc4487695/Nasahump_validation"
+    }
+  ],
+  "files": [
+    {
+      "name": "noflow_cf.exp.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/Nasahump_validation/noflow_cf.exp.dat",
+      "size_bytes": 4813,
+      "description": "Centre-span skin-friction coefficient and uncertainty."
+    },
+    {
+      "name": "noflow_cp.exp.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/Nasahump_validation/noflow_cp.exp.dat",
+      "size_bytes": 4324,
+      "description": "Centre-span pressure coefficient."
+    },
+    {
+      "name": "noflow_u_inflow.exp.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/Nasahump_validation/noflow_u_inflow.exp.dat",
+      "size_bytes": 2393,
+      "description": "Inlet velocity profile."
+    },
+    {
+      "name": "noflow_vel_and_turb.exp.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/Nasahump_validation/noflow_vel_and_turb.exp.dat",
+      "size_bytes": 56880,
+      "description": "Velocity and turbulence profiles at downstream stations."
+    }
+  ],
+  "category": "cfd"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "mfem_elasticity_3d",
+  "category": "fem",
+  "title": "MFEM cantilever elasticity — 3D",
+  "type": "Finite-element tutorial benchmark",
+  "summary": "MFEM's three-dimensional multi-material linear-elasticity cantilever problem on a hexahedral beam mesh.",
+  "sources": [
+    {
+      "label": "MFEM solver tutorial",
+      "url": "https://mfem.org/tutorial/solvers/"
+    },
+    {
+      "label": "MFEM v4.9 release",
+      "url": "https://github.com/mfem/mfem/releases/tag/v4.9"
+    }
+  ],
+  "files": [
+    {
+      "name": "beam-hex.mesh",
+      "url": "https://raw.githubusercontent.com/mfem/mfem/v4.9/data/beam-hex.mesh",
+      "size_bytes": 1155,
+      "description": "Original three-dimensional hexahedral cantilever mesh with material and boundary attributes."
+    },
+    {
+      "name": "ex2.cpp",
+      "url": "https://raw.githubusercontent.com/mfem/mfem/v4.9/examples/ex2.cpp",
+      "size_bytes": 9845,
+      "description": "Original MFEM linear-elasticity problem definition and solver example."
+    }
+  ],
+  "notes": [
+    "These are reproducible benchmark inputs, not precomputed results.",
+    "The files are pinned to the official MFEM v4.9 release."
+  ]
+}

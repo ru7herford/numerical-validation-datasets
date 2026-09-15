@@ -1,0 +1,47 @@
+{
+  "name": "multielement_airfoil_sanegrc",
+  "category": "cfd",
+  "title": "Three-element airfoil — SA-neg-RC numerical results",
+  "type": "Numerical comparison data",
+  "summary": "FUN3D and USM3D results for the two-dimensional CRM-HL three-element airfoil with the SA-neg-RC turbulence model.",
+  "sources": [
+    {
+      "label": "NASA/TMBWG results page",
+      "url": "https://tmbwg.github.io/turbmodels/multielementverif_sanegrc.html"
+    },
+    {
+      "label": "Geometry and grids page",
+      "url": "https://tmbwg.github.io/turbmodels/multielementverif_grids.html"
+    }
+  ],
+  "files": [
+    {
+      "name": "force_convergence_sanegrc.dat",
+      "url": "https://tmbwg.github.io/turbmodels/Multielementverification/SAnegRC/force_convergence_sanegrc.dat",
+      "size_bytes": 1505,
+      "description": "Lift, drag, pressure drag, viscous drag, and pitching-moment convergence data."
+    },
+    {
+      "name": "cp_multielementairfoil_sanegrc.dat",
+      "url": "https://tmbwg.github.io/turbmodels/Multielementverification/SAnegRC/cp_multielementairfoil_sanegrc.dat",
+      "size_bytes": 3694374,
+      "description": "Surface pressure coefficients from FUN3D and USM3D on the finest grid."
+    },
+    {
+      "name": "cfx_multielementairfoil_sanegrc.dat",
+      "url": "https://tmbwg.github.io/turbmodels/Multielementverification/SAnegRC/cfx_multielementairfoil_sanegrc.dat",
+      "size_bytes": 4272748,
+      "description": "Surface streamwise skin-friction coefficients from FUN3D and USM3D on the finest grid."
+    },
+    {
+      "name": "profiles_3element_sanegrc.dat",
+      "url": "https://tmbwg.github.io/turbmodels/Multielementverification/SAnegRC/profiles_3element_sanegrc.dat",
+      "size_bytes": 2226214,
+      "description": "Velocity and eddy-viscosity profiles above the airfoil elements."
+    }
+  ],
+  "doi": "https://doi.org/10.2514/6.2021-0857",
+  "notes": [
+    "NASA/TMBWG states that this case is not in the asymptotic grid-convergence regime and is not currently suitable as a formal verification case."
+  ]
+}

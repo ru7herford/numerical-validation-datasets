@@ -1,0 +1,25 @@
+{
+  "name": "axisymmetric_subsonic_jet",
+  "category": "cfd",
+  "title": "Axisymmetric subsonic jet — experiment",
+  "type": "Experiment",
+  "summary": "NASA PIV velocity and turbulence measurements for the ARN2 subsonic jet at approximately Mach 0.51.",
+  "sources": [
+    {
+      "label": "NASA/TMBWG case page",
+      "url": "https://tmbwg.github.io/turbmodels/jetsubsonic_val.html"
+    },
+    {
+      "label": "NASA technical memorandum",
+      "url": "https://ntrs.nasa.gov/citations/20110023688"
+    }
+  ],
+  "files": [
+    {
+      "name": "ARN-jet-lines-expt.dat",
+      "url": "https://tmbwg.github.io/turbmodels/Jetsubsonic_validation/ARN-jet-lines-expt.dat",
+      "size_bytes": 92818,
+      "description": "Centerline and downstream velocity and turbulence profiles selected for CFD comparison."
+    }
+  ]
+}

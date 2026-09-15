@@ -1,0 +1,61 @@
+{
+  "name": "periodic_hill_les",
+  "title": "Periodic hill — LES",
+  "type": "Large-eddy simulation reference",
+  "summary": "Long-time-averaged incompressible periodic-hill LES data from Temmerman, Bentaleb, and Leschziner.",
+  "sources": [
+    {
+      "label": "NASA/TMBWG case page",
+      "url": "https://tmbwg.github.io/turbmodels/Other_LES_Data/2dhill_periodic.html"
+    },
+    {
+      "label": "Main reference",
+      "url": "https://doi.org/10.1017/S0022112004002812"
+    }
+  ],
+  "files": [
+    {
+      "name": "hill-geometry.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/Other_LES_Data/2Dhill_periodic/hill-geometry.dat",
+      "size_bytes": 1171,
+      "description": "Hill geometry definition."
+    },
+    {
+      "name": "README_gridpoints_hill.txt",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/Other_LES_Data/2Dhill_periodic/README_gridpoints_hill.txt",
+      "size_bytes": 707,
+      "description": "Upstream grid-format description."
+    },
+    {
+      "name": "hill-grid-dat.zip",
+      "url": "https://www.nasa.gov/wp-content/uploads/2025/11/hill-grid-dat.zip?emrc=69669f40bd6f3",
+      "size_bytes": 224526,
+      "description": "Grid points in the x-y plane."
+    },
+    {
+      "name": "README_p_vel_and_turb_hill.txt",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/Other_LES_Data/2Dhill_periodic/README_p_vel_and_turb_hill.txt",
+      "size_bytes": 1809,
+      "description": "Upstream mean-flow-data description."
+    },
+    {
+      "name": "hill-les-avgresults-dat.zip",
+      "url": "https://www.nasa.gov/wp-content/uploads/2025/11/hill-les-avgresults-dat.zip?emrc=69669f40bddcd",
+      "size_bytes": 1734543,
+      "description": "Averaged pressure, velocity, and turbulence quantities."
+    },
+    {
+      "name": "README_budgets_hill.txt",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/Other_LES_Data/2Dhill_periodic/README_budgets_hill.txt",
+      "size_bytes": 5673,
+      "description": "Upstream turbulence-budget description."
+    },
+    {
+      "name": "hill-les-budgets-all-dat.zip",
+      "url": "https://www.nasa.gov/wp-content/uploads/2025/11/hill-les-budgets-all-dat.zip?emrc=69669f40be013",
+      "size_bytes": 7841853,
+      "description": "Turbulence-budget terms."
+    }
+  ],
+  "category": "cfd"
+}

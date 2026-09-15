@@ -1,0 +1,115 @@
+{
+  "name": "square_duct_3d",
+  "title": "Supersonic square duct — 3D verification",
+  "type": "Numerical verification",
+  "summary": "Three-dimensional modified square-duct results for SA-QCR2000 at Mach 3.9 and Re=508,000.",
+  "sources": [
+    {
+      "label": "NASA/TMBWG case page",
+      "url": "https://tmbwg.github.io/turbmodels/3dsqduct_mod_numerics_val_saqcr.html"
+    },
+    {
+      "label": "Pinned TMBWG repository directory",
+      "url": "https://github.com/TMBWG/turbmodels/tree/20a39f549dbff988a6accc421ac84dafc4487695/3dsqduct_mod_numerics_2021/SA-QCR2000"
+    }
+  ],
+  "files": [
+    {
+      "name": "fun3d_centerline_u.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/3dsqduct_mod_numerics_2021/SA-QCR2000/fun3d_centerline_u.dat",
+      "size_bytes": 165863,
+      "description": "FUN3D: Streamwise centreline velocity."
+    },
+    {
+      "name": "usm3d_centerline_u.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/3dsqduct_mod_numerics_2021/SA-QCR2000/usm3d_centerline_u.dat",
+      "size_bytes": 196835,
+      "description": "USM3D: Streamwise centreline velocity."
+    },
+    {
+      "name": "fun3d_convergence_centerline_u.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/3dsqduct_mod_numerics_2021/SA-QCR2000/fun3d_convergence_centerline_u.dat",
+      "size_bytes": 468,
+      "description": "FUN3D: Centreline-velocity grid convergence."
+    },
+    {
+      "name": "usm3d_convergence_centerline_u.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/3dsqduct_mod_numerics_2021/SA-QCR2000/usm3d_convergence_centerline_u.dat",
+      "size_bytes": 468,
+      "description": "USM3D: Centreline-velocity grid convergence."
+    },
+    {
+      "name": "fun3d_convergence_cd_and_maxmut.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/3dsqduct_mod_numerics_2021/SA-QCR2000/fun3d_convergence_cd_and_maxmut.dat",
+      "size_bytes": 311,
+      "description": "FUN3D: Drag and maximum eddy-viscosity grid convergence."
+    },
+    {
+      "name": "usm3d_convergence_cd_and_maxmut.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/3dsqduct_mod_numerics_2021/SA-QCR2000/usm3d_convergence_cd_and_maxmut.dat",
+      "size_bytes": 311,
+      "description": "USM3D: Drag and maximum eddy-viscosity grid convergence."
+    },
+    {
+      "name": "fun3d_u_diag_40.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/3dsqduct_mod_numerics_2021/SA-QCR2000/fun3d_u_diag_40.dat",
+      "size_bytes": 28708,
+      "description": "FUN3D: Diagonal velocity profile at x/D=40."
+    },
+    {
+      "name": "usm3d_u_diag_40.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/3dsqduct_mod_numerics_2021/SA-QCR2000/usm3d_u_diag_40.dat",
+      "size_bytes": 132153,
+      "description": "USM3D: Diagonal velocity profile at x/D=40."
+    },
+    {
+      "name": "fun3d_u_vert_40.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/3dsqduct_mod_numerics_2021/SA-QCR2000/fun3d_u_vert_40.dat",
+      "size_bytes": 52654,
+      "description": "FUN3D: Vertical velocity profile at x/D=40."
+    },
+    {
+      "name": "usm3d_u_vert_40.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/3dsqduct_mod_numerics_2021/SA-QCR2000/usm3d_u_vert_40.dat",
+      "size_bytes": 132153,
+      "description": "USM3D: Vertical velocity profile at x/D=40."
+    },
+    {
+      "name": "fun3d_u_diag_50.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/3dsqduct_mod_numerics_2021/SA-QCR2000/fun3d_u_diag_50.dat",
+      "size_bytes": 28669,
+      "description": "FUN3D: Diagonal velocity profile at x/D=50."
+    },
+    {
+      "name": "usm3d_u_diag_50.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/3dsqduct_mod_numerics_2021/SA-QCR2000/usm3d_u_diag_50.dat",
+      "size_bytes": 132153,
+      "description": "USM3D: Diagonal velocity profile at x/D=50."
+    },
+    {
+      "name": "fun3d_u_vert_50.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/3dsqduct_mod_numerics_2021/SA-QCR2000/fun3d_u_vert_50.dat",
+      "size_bytes": 52654,
+      "description": "FUN3D: Vertical velocity profile at x/D=50."
+    },
+    {
+      "name": "usm3d_u_vert_50.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/3dsqduct_mod_numerics_2021/SA-QCR2000/usm3d_u_vert_50.dat",
+      "size_bytes": 132153,
+      "description": "USM3D: Vertical velocity profile at x/D=50."
+    },
+    {
+      "name": "fun3d_cf_40_50.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/3dsqduct_mod_numerics_2021/SA-QCR2000/fun3d_cf_40_50.dat",
+      "size_bytes": 95579,
+      "description": "FUN3D: Wall skin-friction profiles at x/D=40 and 50."
+    },
+    {
+      "name": "usm3d_cf_40_50.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/3dsqduct_mod_numerics_2021/SA-QCR2000/usm3d_cf_40_50.dat",
+      "size_bytes": 37664,
+      "description": "USM3D: Wall skin-friction profiles at x/D=40 and 50."
+    }
+  ],
+  "category": "cfd"
+}

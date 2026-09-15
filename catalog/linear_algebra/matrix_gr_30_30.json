@@ -1,0 +1,21 @@
+{
+  "name": "matrix_gr_30_30",
+  "category": "linear_algebra",
+  "title": "GR 30 30 finite-difference Laplacian",
+  "type": "Sparse symmetric positive-definite matrix",
+  "summary": "A 900 by 900 finite-difference Laplacian matrix for testing sparse linear solvers.",
+  "sources": [
+    {
+      "label": "NIST Matrix Market",
+      "url": "https://math.nist.gov/MatrixMarket/data/Harwell-Boeing/laplace/gr_30_30.html"
+    }
+  ],
+  "files": [
+    {
+      "name": "gr_30_30.mtx.gz",
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/laplace/gr_30_30.mtx.gz",
+      "size_bytes": 12422,
+      "description": "Compressed Matrix Market matrix with 4322 stored entries."
+    }
+  ]
+}

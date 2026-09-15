@@ -1,0 +1,31 @@
+{
+  "name": "onera_m6",
+  "category": "cfd",
+  "title": "ONERA M6 wing — experimental pressure data",
+  "type": "Experimental validation",
+  "summary": "Chordwise pressure-coefficient measurements for the transonic ONERA M6 wing at Mach 0.84.",
+  "sources": [
+    {
+      "label": "NASA/TMBWG case page",
+      "url": "https://tmbwg.github.io/turbmodels/onerawingnumerics_val.html"
+    },
+    {
+      "label": "AGARD Report 138",
+      "url": "https://www.sto.nato.int/publications/AGARD/AGARD-AR-138/AGARD-AR-138.pdf"
+    }
+  ],
+  "files": [
+    {
+      "name": "case_2308.dat",
+      "url": "https://tmbwg.github.io/turbmodels/Onerawingnumerics_val/case_2308.dat",
+      "size_bytes": 22695,
+      "description": "Pressure coefficients at seven span stations for Mach 0.84 and angle of attack 3.06 degrees."
+    },
+    {
+      "name": "case_2565.dat",
+      "url": "https://tmbwg.github.io/turbmodels/Onerawingnumerics_val/case_2565.dat",
+      "size_bytes": 22695,
+      "description": "Pressure coefficients at seven span stations for Mach 0.84 and angle of attack 6.06 degrees."
+    }
+  ]
+}

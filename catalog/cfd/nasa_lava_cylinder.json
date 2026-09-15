@@ -1,0 +1,34 @@
+{
+  "name": "nasa_lava_cylinder",
+  "category": "cfd",
+  "title": "NASA LAVA laminar cylinder — tutorial inputs",
+  "type": "CFD validation tutorial inputs",
+  "summary": "Meshing and solver inputs for NASA LAVA unsteady laminar flow past a circular cylinder.",
+  "sources": [
+    {
+      "label": "NASA LAVA tutorial",
+      "url": "https://www.nas.nasa.gov/LAVA/unst_docs/tutorials/flow_past_cylinder/flow_past_cylinder/"
+    },
+    {
+      "label": "NASA Glenn validation page",
+      "url": "https://www.grc.nasa.gov/www/wind/valid/lamcyl/Study1_files/Study1.html"
+    }
+  ],
+  "files": [
+    {
+      "name": "voro_cylinder_2d.yml",
+      "url": "https://www.nas.nasa.gov/LAVA/downloads/flow_past_cylinder/unst/voro_cylinder_2d.yml",
+      "size_bytes": 5511,
+      "description": "LAVA Voronoi mesh-generator input."
+    },
+    {
+      "name": "unst_cylinder_2d.inputs",
+      "url": "https://www.nas.nasa.gov/LAVA/downloads/flow_past_cylinder/unst/unst_cylinder_2d.inputs",
+      "size_bytes": 1623,
+      "description": "LAVA unstructured-solver input."
+    }
+  ],
+  "notes": [
+    "The NASA tutorial describes a Reynolds-number-200 case, while the current downloadable solver input declares Re=150. The files are cataloged unchanged."
+  ]
+}

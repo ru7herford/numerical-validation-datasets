@@ -1,0 +1,33 @@
+{
+  "name": "backward_facing_step",
+  "title": "Backward-facing step — Driver and Seegmiller",
+  "type": "Experiment",
+  "summary": "Wall and profile measurements for a two-dimensional backward-facing step.",
+  "sources": [
+    {
+      "label": "Pinned TMBWG repository directory",
+      "url": "https://github.com/TMBWG/turbmodels/tree/20a39f549dbff988a6accc421ac84dafc4487695/Backstep_validation"
+    }
+  ],
+  "files": [
+    {
+      "name": "cf.exp.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/Backstep_validation/cf.exp.dat",
+      "size_bytes": 592,
+      "description": "Bottom-wall skin-friction coefficient and uncertainty."
+    },
+    {
+      "name": "cp.expnew.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/Backstep_validation/cp.expnew.dat",
+      "size_bytes": 2087,
+      "description": "Wall-pressure coefficient with shifted and original definitions."
+    },
+    {
+      "name": "profiles.exp.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/Backstep_validation/profiles.exp.dat",
+      "size_bytes": 10341,
+      "description": "Velocity, Reynolds-stress, and triple-moment profiles at several x/H stations."
+    }
+  ],
+  "category": "cfd"
+}

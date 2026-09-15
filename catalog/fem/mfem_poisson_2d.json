@@ -1,0 +1,35 @@
+{
+  "name": "mfem_poisson_2d",
+  "category": "fem",
+  "title": "MFEM Poisson problem — 2D",
+  "type": "Finite-element tutorial benchmark",
+  "summary": "MFEM's basic scalar finite-element problem: solve -Laplace(u)=1 with homogeneous Dirichlet conditions on a two-dimensional star mesh.",
+  "sources": [
+    {
+      "label": "MFEM serial tutorial",
+      "url": "https://mfem.org/serial-tutorial/"
+    },
+    {
+      "label": "MFEM v4.9 release",
+      "url": "https://github.com/mfem/mfem/releases/tag/v4.9"
+    }
+  ],
+  "files": [
+    {
+      "name": "star.mesh",
+      "url": "https://raw.githubusercontent.com/mfem/mfem/v4.9/data/star.mesh",
+      "size_bytes": 1212,
+      "description": "Original two-dimensional MFEM mesh used by Example 1."
+    },
+    {
+      "name": "ex1.cpp",
+      "url": "https://raw.githubusercontent.com/mfem/mfem/v4.9/examples/ex1.cpp",
+      "size_bytes": 10941,
+      "description": "Original MFEM finite-element problem definition and solver example."
+    }
+  ],
+  "notes": [
+    "These are reproducible benchmark inputs, not precomputed results.",
+    "The files are pinned to the official MFEM v4.9 release."
+  ]
+}

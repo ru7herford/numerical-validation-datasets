@@ -1,0 +1,51 @@
+{
+  "name": "bump_in_channel",
+  "title": "Bump in channel — SST-2003 verification",
+  "type": "Numerical verification",
+  "summary": "NASA/TMBWG two-dimensional bump-in-channel results for the SST-2003 turbulence model.",
+  "sources": [
+    {
+      "label": "Pinned TMBWG repository directory",
+      "url": "https://github.com/TMBWG/turbmodels/tree/20a39f549dbff988a6accc421ac84dafc4487695/Bump/SST2003"
+    }
+  ],
+  "files": [
+    {
+      "name": "cf_bump_sst2003.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/Bump/SST2003/cf_bump_sst2003.dat",
+      "size_bytes": 52612,
+      "description": "Surface skin-friction coefficient."
+    },
+    {
+      "name": "cf_convergence_sst2003.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/Bump/SST2003/cf_convergence_sst2003.dat",
+      "size_bytes": 1917,
+      "description": "Skin-friction grid convergence."
+    },
+    {
+      "name": "cp_bump_sst2003.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/Bump/SST2003/cp_bump_sst2003.dat",
+      "size_bytes": 90708,
+      "description": "Surface pressure coefficient."
+    },
+    {
+      "name": "force_convergence_sst2003.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/Bump/SST2003/force_convergence_sst2003.dat",
+      "size_bytes": 1215,
+      "description": "Integrated-force grid convergence."
+    },
+    {
+      "name": "mut_0.75_sst2003.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/Bump/SST2003/mut_0.75_sst2003.dat",
+      "size_bytes": 70465,
+      "description": "Eddy-viscosity profile near the bump crest."
+    },
+    {
+      "name": "sst2003_omega_k.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/Bump/SST2003/sst2003_omega_k.dat",
+      "size_bytes": 93524,
+      "description": "Turbulence-variable profile."
+    }
+  ],
+  "category": "cfd"
+}

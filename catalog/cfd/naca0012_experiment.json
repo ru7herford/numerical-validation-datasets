@@ -1,0 +1,61 @@
+{
+  "name": "naca0012_experiment",
+  "title": "NACA 0012 airfoil — experiments",
+  "type": "Experiment",
+  "summary": "Published NACA 0012 lift, drag, and surface-pressure measurements.",
+  "sources": [
+    {
+      "label": "NASA/TMBWG case page",
+      "url": "https://tmbwg.github.io/turbmodels/naca0012_val.html"
+    },
+    {
+      "label": "Pinned TMBWG repository directory",
+      "url": "https://github.com/TMBWG/turbmodels/tree/20a39f549dbff988a6accc421ac84dafc4487695/NACA0012_validation"
+    }
+  ],
+  "files": [
+    {
+      "name": "0012.abbottdata.cd.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/NACA0012_validation/0012.abbottdata.cd.dat",
+      "size_bytes": 569,
+      "description": "Abbott and von Doenhoff drag data."
+    },
+    {
+      "name": "0012.abbottdata.cl.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/NACA0012_validation/0012.abbottdata.cl.dat",
+      "size_bytes": 696,
+      "description": "Abbott and von Doenhoff lift data."
+    },
+    {
+      "name": "0012.mccroskeydata.cl.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/NACA0012_validation/0012.mccroskeydata.cl.dat",
+      "size_bytes": 250,
+      "description": "McCroskey lift data."
+    },
+    {
+      "name": "CLCD_Ladson_expdata.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/NACA0012_validation/CLCD_Ladson_expdata.dat",
+      "size_bytes": 1343,
+      "description": "Ladson lift and drag data."
+    },
+    {
+      "name": "CL_Gregory_expdata.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/NACA0012_validation/CL_Gregory_expdata.dat",
+      "size_bytes": 308,
+      "description": "Gregory lift data."
+    },
+    {
+      "name": "CP_Gregory_expdata.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/NACA0012_validation/CP_Gregory_expdata.dat",
+      "size_bytes": 1608,
+      "description": "Gregory surface-pressure data."
+    },
+    {
+      "name": "CP_Ladson.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/NACA0012_validation/CP_Ladson.dat",
+      "size_bytes": 6331,
+      "description": "Ladson surface-pressure data."
+    }
+  ],
+  "category": "cfd"
+}

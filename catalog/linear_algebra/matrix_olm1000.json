@@ -1,0 +1,21 @@
+{
+  "name": "matrix_olm1000",
+  "category": "linear_algebra",
+  "title": "OLM1000 Olmstead model matrix",
+  "type": "Sparse nonsymmetric matrix",
+  "summary": "A 1000 by 1000 real unsymmetric matrix from a hydrodynamic model.",
+  "sources": [
+    {
+      "label": "NIST Matrix Market",
+      "url": "https://math.nist.gov/MatrixMarket/data/NEP/olmstead/olm1000.html"
+    }
+  ],
+  "files": [
+    {
+      "name": "olm1000.mtx.gz",
+      "url": "https://math.nist.gov/pub/MatrixMarket2/NEP/olmstead/olm1000.mtx.gz",
+      "size_bytes": 13843,
+      "description": "Compressed Matrix Market matrix with 3996 stored entries."
+    }
+  ]
+}

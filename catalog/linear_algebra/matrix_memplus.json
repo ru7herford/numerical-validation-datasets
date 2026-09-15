@@ -1,0 +1,27 @@
+{
+  "name": "matrix_memplus",
+  "category": "linear_algebra",
+  "title": "MEMPLUS circuit matrix",
+  "type": "Sparse nonsymmetric linear system",
+  "summary": "A circuit-design matrix and right-hand side representing a memory circuit.",
+  "sources": [
+    {
+      "label": "NIST Matrix Market",
+      "url": "https://math.nist.gov/MatrixMarket/data/misc/hamm/memplus.html"
+    }
+  ],
+  "files": [
+    {
+      "name": "memplus.mtx.gz",
+      "url": "https://math.nist.gov/pub/MatrixMarket2/misc/hamm/memplus.mtx.gz",
+      "size_bytes": 845165,
+      "description": "17758 by 17758 real unsymmetric matrix in compressed Matrix Market format."
+    },
+    {
+      "name": "memplus_rhs1.mtx.gz",
+      "url": "https://math.nist.gov/pub/MatrixMarket2/misc/hamm/memplus_rhs1.mtx.gz",
+      "size_bytes": 153459,
+      "description": "Matching right-hand-side vector."
+    }
+  ]
+}

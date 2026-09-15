@@ -1,0 +1,75 @@
+{
+  "name": "flat_plate",
+  "title": "Zero-pressure-gradient flat plate — SST-V verification",
+  "type": "Numerical verification",
+  "summary": "NASA/TMBWG flat-plate results for the SST-V turbulence model.",
+  "sources": [
+    {
+      "label": "Pinned TMBWG repository directory",
+      "url": "https://github.com/TMBWG/turbmodels/tree/20a39f549dbff988a6accc421ac84dafc4487695/FlatPlate/SST"
+    }
+  ],
+  "files": [
+    {
+      "name": "cf_convergence_sstv.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/FlatPlate/SST/cf_convergence_sstv.dat",
+      "size_bytes": 666,
+      "description": "Skin-friction grid convergence."
+    },
+    {
+      "name": "cf_plate_sstv.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/FlatPlate/SST/cf_plate_sstv.dat",
+      "size_bytes": 32816,
+      "description": "Surface skin-friction distribution."
+    },
+    {
+      "name": "drag_convergence_sstv.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/FlatPlate/SST/drag_convergence_sstv.dat",
+      "size_bytes": 604,
+      "description": "Drag grid convergence."
+    },
+    {
+      "name": "find_peak_mut_sstv.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/FlatPlate/SST/find_peak_mut_sstv.dat",
+      "size_bytes": 16895,
+      "description": "Peak eddy-viscosity values along the plate."
+    },
+    {
+      "name": "flatplate_u+y+_sstv.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/FlatPlate/SST/flatplate_u+y+_sstv.dat",
+      "size_bytes": 23881,
+      "description": "Velocity profile in wall units near x=0.97."
+    },
+    {
+      "name": "flatplate_u_sstv.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/FlatPlate/SST/flatplate_u_sstv.dat",
+      "size_bytes": 23936,
+      "description": "Velocity profile near x=0.97."
+    },
+    {
+      "name": "mut_0.97_sstv.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/FlatPlate/SST/mut_0.97_sstv.dat",
+      "size_bytes": 37737,
+      "description": "Eddy-viscosity profile."
+    },
+    {
+      "name": "sstv_f1f2_function.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/FlatPlate/SST/sstv_f1f2_function.dat",
+      "size_bytes": 31059,
+      "description": "SST blending functions."
+    },
+    {
+      "name": "sstv_omega_k.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/FlatPlate/SST/sstv_omega_k.dat",
+      "size_bytes": 56059,
+      "description": "Omega and k profile."
+    },
+    {
+      "name": "u+y+theory.dat",
+      "url": "https://raw.githubusercontent.com/TMBWG/turbmodels/20a39f549dbff988a6accc421ac84dafc4487695/FlatPlate/SA/u+y+theory.dat",
+      "size_bytes": 380438,
+      "description": "Inner, log-law, and Spalding-law reference curves."
+    }
+  ],
+  "category": "cfd"
+}

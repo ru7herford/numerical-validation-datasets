@@ -1,0 +1,27 @@
+{
+  "name": "matrix_sherman1",
+  "category": "linear_algebra",
+  "title": "SHERMAN1 reservoir simulation system",
+  "type": "Sparse linear system",
+  "summary": "An oil-reservoir simulation matrix and right-hand side with shale barriers.",
+  "sources": [
+    {
+      "label": "NIST Matrix Market",
+      "url": "https://math.nist.gov/MatrixMarket/data/Harwell-Boeing/sherman/sherman1.html"
+    }
+  ],
+  "files": [
+    {
+      "name": "sherman1.mtx.gz",
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/sherman/sherman1.mtx.gz",
+      "size_bytes": 15344,
+      "description": "1000 by 1000 reservoir-simulation matrix in compressed Matrix Market format."
+    },
+    {
+      "name": "sherman1_rhs1.mtx.gz",
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/sherman/sherman1_rhs1.mtx.gz",
+      "size_bytes": 761,
+      "description": "Matching right-hand-side vector."
+    }
+  ]
+}

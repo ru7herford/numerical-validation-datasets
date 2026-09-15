@@ -1,0 +1,25 @@
+{
+  "name": "turbulent_channel_dns",
+  "title": "Turbulent channel — MKM DNS",
+  "type": "Direct numerical simulation reference",
+  "summary": "Fully developed turbulent-channel statistics from Moser, Kim, and Mansour.",
+  "sources": [
+    {
+      "label": "Paper",
+      "url": "https://doi.org/10.1063/1.869966"
+    },
+    {
+      "label": "University of Texas data directory",
+      "url": "https://turbulence.oden.utexas.edu/data/MKM/"
+    }
+  ],
+  "files": [
+    {
+      "name": "chandata.tar.gz",
+      "url": "https://turbulence.oden.utexas.edu/data/MKM/chandata.tar.gz",
+      "size_bytes": 1181724,
+      "description": "Channel statistics and documentation for friction Reynolds numbers 180, 395, and 590."
+    }
+  ],
+  "category": "cfd"
+}

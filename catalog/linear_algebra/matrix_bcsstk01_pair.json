@@ -1,0 +1,27 @@
+{
+  "name": "matrix_bcsstk01_pair",
+  "category": "linear_algebra",
+  "title": "BCSSTK01 and BCSSTM01 structural eigenvalue pair",
+  "type": "Sparse generalized eigenvalue problem",
+  "summary": "A small structural-engineering stiffness and mass matrix pair for Kx = lambda Mx.",
+  "sources": [
+    {
+      "label": "NIST Matrix Market",
+      "url": "https://math.nist.gov/MatrixMarket/data/Harwell-Boeing/bcsstruc1/bcsstk01.html"
+    }
+  ],
+  "files": [
+    {
+      "name": "bcsstk01.mtx.gz",
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/bcsstruc1/bcsstk01.mtx.gz",
+      "size_bytes": 1511,
+      "description": "48 by 48 real symmetric positive-definite stiffness matrix in compressed Matrix Market format."
+    },
+    {
+      "name": "bcsstm01.mtx.gz",
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/bcsstruc1/bcsstm01.mtx.gz",
+      "size_bytes": 294,
+      "description": "Matching 48 by 48 real symmetric positive-semidefinite mass matrix."
+    }
+  ]
+}
