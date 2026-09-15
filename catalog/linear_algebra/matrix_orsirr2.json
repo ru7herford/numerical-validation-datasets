@@ -1,0 +1,21 @@
+{
+  "name": "matrix_orsirr2",
+  "category": "linear_algebra",
+  "title": "ORSIRR_2 irregular-grid reservoir matrix",
+  "type": "Sparse nonsymmetric matrix",
+  "summary": "An 886 by 886 real unsymmetric oil-reservoir simulation matrix generated on an irregular 21 by 21 by 5 grid.",
+  "sources": [
+    {
+      "label": "NIST Matrix Market",
+      "url": "https://math.nist.gov/MatrixMarket/data/Harwell-Boeing/oilgen/orsirr_2.html"
+    }
+  ],
+  "files": [
+    {
+      "name": "orsirr_2.mtx.gz",
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/oilgen/orsirr_2.mtx.gz",
+      "size_bytes": 26615,
+      "description": "Compressed Matrix Market matrix with 5970 stored entries."
+    }
+  ]
+}

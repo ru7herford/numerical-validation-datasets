@@ -1,0 +1,21 @@
+{
+  "name": "naca4412_separation",
+  "category": "cfd",
+  "title": "NACA 4412 trailing-edge separation",
+  "type": "Experimental aerodynamic validation",
+  "summary": "Measured flowfield data for turbulent trailing-edge separation over a two-dimensional NACA 4412 airfoil.",
+  "sources": [
+    {
+      "label": "NASA Turbulence Modeling Resource",
+      "url": "https://www.nasa.gov/reference/turbulence-modeling-resource-large-files/"
+    }
+  ],
+  "files": [
+    {
+      "name": "naca4412-flowfield-expt-dat.zip",
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/naca4412-flowfield-expt-dat.zip",
+      "size_bytes": 394958,
+      "description": "NASA TMR archive of the NACA 4412 experimental flowfield data."
+    }
+  ]
+}

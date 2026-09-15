@@ -1,0 +1,21 @@
+{
+  "name": "matrix_orsreg1",
+  "category": "linear_algebra",
+  "title": "ORSREG_1 regular-grid reservoir matrix",
+  "type": "Sparse nonsymmetric matrix",
+  "summary": "A 2205 by 2205 real unsymmetric oil-reservoir simulation matrix generated on a regular 21 by 21 by 5 grid.",
+  "sources": [
+    {
+      "label": "NIST Matrix Market",
+      "url": "https://math.nist.gov/MatrixMarket/data/Harwell-Boeing/oilgen/orsreg_1.html"
+    }
+  ],
+  "files": [
+    {
+      "name": "orsreg_1.mtx.gz",
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/oilgen/orsreg_1.mtx.gz",
+      "size_bytes": 56898,
+      "description": "Compressed Matrix Market matrix with 14133 stored entries."
+    }
+  ]
+}

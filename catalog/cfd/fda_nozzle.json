@@ -1,0 +1,22 @@
+{
+  "name": "fda_nozzle",
+  "category": "cfd",
+  "title": "FDA benchmark nozzle",
+  "type": "Experimental biomedical-flow validation",
+  "summary": "Experimental validation data for the FDA generic medical-device nozzle at several Reynolds numbers.",
+  "sources": [
+    {
+      "label": "FDA benchmark repository",
+      "url": "https://github.com/OSEL-DAM/CFD-and-Blood-Damage-Benchmarks"
+    }
+  ],
+  "files": [
+    {
+      "name": "fda-nozzle-data.zip",
+      "url": "https://raw.githubusercontent.com/OSEL-DAM/CFD-and-Blood-Damage-Benchmarks/76cdd3423845a398fc75f8121be4130caca4de90/Nozzle/Data/bundle.zip",
+      "size_bytes": 609509,
+      "description": "Pinned archive containing the nozzle experimental data files."
+    }
+  ],
+  "license": "Public domain as stated by the FDA repository README."
+}

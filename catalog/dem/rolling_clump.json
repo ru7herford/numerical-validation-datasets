@@ -1,0 +1,22 @@
+{
+  "name": "dem_rolling_clump",
+  "category": "dem",
+  "title": "DEM rolling-clump validation",
+  "type": "Discrete-element-method validation",
+  "summary": "Data and LAMMPS scripts for validating rolling behavior of a clumped-particle DEM model.",
+  "sources": [
+    {
+      "label": "Zenodo record",
+      "url": "https://zenodo.org/records/10411062"
+    }
+  ],
+  "files": [
+    {
+      "name": "Rolling_clump.zip",
+      "url": "https://zenodo.org/records/10411062/files/Rolling_clump.zip?download=1",
+      "size_bytes": 305142,
+      "description": "Validation data, post-processing material, and simulation scripts for the rolling-clump case."
+    }
+  ],
+  "doi": "10.5281/zenodo.10411062"
+}

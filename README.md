@@ -91,7 +91,7 @@ download.sh              command-line entry point
 datasets/                local downloads, ignored by Git
 ```
 
-Current catalog categories are `cfd`, `fem`, and `linear_algebra`.
+Current catalog categories are `cfd`, `dem`, `fem`, and `linear_algebra`.
 
 ## Add a dataset
 

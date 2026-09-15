@@ -1,0 +1,22 @@
+{
+  "name": "dem_fcc_packing",
+  "category": "dem",
+  "title": "DEM face-centered-cubic packing validation",
+  "type": "Discrete-element-method validation",
+  "summary": "Data and LAMMPS scripts for validating a DEM implementation using a face-centered-cubic particle packing case.",
+  "sources": [
+    {
+      "label": "Zenodo record",
+      "url": "https://zenodo.org/records/10411062"
+    }
+  ],
+  "files": [
+    {
+      "name": "FCC_packing.zip",
+      "url": "https://zenodo.org/records/10411062/files/FCC_packing.zip?download=1",
+      "size_bytes": 50747,
+      "description": "Validation data, post-processing material, and simulation scripts for the FCC packing case."
+    }
+  ],
+  "doi": "10.5281/zenodo.10411062"
+}

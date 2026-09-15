@@ -1,0 +1,21 @@
+{
+  "name": "near_sonic_jet",
+  "category": "cfd",
+  "title": "Axisymmetric near-sonic jet",
+  "type": "Experimental jet-flow validation",
+  "summary": "Experimental flowfield measurements for an axisymmetric near-sonic jet.",
+  "sources": [
+    {
+      "label": "NASA Turbulence Modeling Resource",
+      "url": "https://www.nasa.gov/reference/turbulence-modeling-resource-large-files/"
+    }
+  ],
+  "files": [
+    {
+      "name": "arn-jet-flowfield-expt-hi-dat.zip",
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/arn-jet-flowfield-expt-hi-dat.zip",
+      "size_bytes": 1186861,
+      "description": "NASA TMR archive of the near-sonic jet measurements."
+    }
+  ]
+}

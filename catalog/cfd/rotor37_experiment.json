@@ -1,0 +1,21 @@
+{
+  "name": "rotor37_experiment",
+  "category": "cfd",
+  "title": "NASA Rotor 37 experiment",
+  "type": "Experimental turbomachinery validation",
+  "summary": "Experimental data for the NASA Rotor 37 transonic compressor-rotor benchmark.",
+  "sources": [
+    {
+      "label": "NASA Turbulence Modeling Resource",
+      "url": "https://www.nasa.gov/reference/turbulence-modeling-resource-large-files/"
+    }
+  ],
+  "files": [
+    {
+      "name": "rotor37-exp.zip",
+      "url": "https://www.nasa.gov/wp-content/uploads/2025/10/rotor37-exp.zip",
+      "size_bytes": 12756086,
+      "description": "NASA TMR archive of Rotor 37 experimental data."
+    }
+  ]
+}

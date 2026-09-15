@@ -1,0 +1,21 @@
+{
+  "name": "rounded_backstep",
+  "category": "cfd",
+  "title": "Two-dimensional rounded backward-facing step",
+  "type": "Experimental separated-flow validation",
+  "summary": "Measurements of separation, reattachment, and recovery behind a rounded two-dimensional backward-facing step.",
+  "sources": [
+    {
+      "label": "NASA Turbulence Modeling Resource",
+      "url": "https://www.nasa.gov/reference/turbulence-modeling-resource-large-files/"
+    }
+  ],
+  "files": [
+    {
+      "name": "exp-song-eaton.zip",
+      "url": "https://www.nasa.gov/wp-content/uploads/2025/10/exp-song-eaton.zip",
+      "size_bytes": 306193,
+      "description": "NASA TMR archive of the Song and Eaton experimental data."
+    }
+  ]
+}

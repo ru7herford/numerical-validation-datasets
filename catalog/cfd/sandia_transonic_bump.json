@@ -1,0 +1,21 @@
+{
+  "name": "sandia_transonic_bump",
+  "category": "cfd",
+  "title": "Sandia axisymmetric transonic bump",
+  "type": "Experimental transonic-flow validation",
+  "summary": "Challenge data for axisymmetric transonic flow over a bump, revisiting the Bachalo-Johnson experiment.",
+  "sources": [
+    {
+      "label": "NASA Turbulence Modeling Resource",
+      "url": "https://www.nasa.gov/reference/turbulence-modeling-resource-large-files/"
+    }
+  ],
+  "files": [
+    {
+      "name": "sandiachallengedata-v1.zip",
+      "url": "https://www.nasa.gov/wp-content/uploads/2025/10/sandiachallengedata-v1.zip",
+      "size_bytes": 1542437,
+      "description": "Version 1 of the Sandia transonic bump challenge data."
+    }
+  ]
+}

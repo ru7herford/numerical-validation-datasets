@@ -1,0 +1,27 @@
+{
+  "name": "matrix_sherman3",
+  "category": "linear_algebra",
+  "title": "SHERMAN3 reservoir matrix and right-hand side",
+  "type": "Sparse nonsymmetric linear system",
+  "summary": "A 5005 by 5005 real unsymmetric matrix from an IMPES black-oil reservoir simulation, with its right-hand-side vector.",
+  "sources": [
+    {
+      "label": "NIST Matrix Market",
+      "url": "https://math.nist.gov/MatrixMarket/data/Harwell-Boeing/sherman/sherman3.html"
+    }
+  ],
+  "files": [
+    {
+      "name": "sherman3.mtx.gz",
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/sherman/sherman3.mtx.gz",
+      "size_bytes": 133745,
+      "description": "Compressed Matrix Market matrix with 20033 stored entries."
+    },
+    {
+      "name": "sherman3_rhs1.mtx.gz",
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/sherman/sherman3_rhs1.mtx.gz",
+      "size_bytes": 17201,
+      "description": "Compressed Matrix Market right-hand-side vector."
+    }
+  ]
+}

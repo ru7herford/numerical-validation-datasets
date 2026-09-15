@@ -1,0 +1,21 @@
+{
+  "name": "hot_subsonic_jet",
+  "category": "cfd",
+  "title": "Axisymmetric hot subsonic jet",
+  "type": "Experimental jet-flow validation",
+  "summary": "Experimental flowfield measurements for an axisymmetric heated subsonic jet.",
+  "sources": [
+    {
+      "label": "NASA Turbulence Modeling Resource",
+      "url": "https://www.nasa.gov/reference/turbulence-modeling-resource-large-files/"
+    }
+  ],
+  "files": [
+    {
+      "name": "arn-jet-flowfield-hot-expt-dat.zip",
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/arn-jet-flowfield-hot-expt-dat.zip",
+      "size_bytes": 1256360,
+      "description": "NASA TMR archive of the hot subsonic jet measurements."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "sbli_mach205",
+  "category": "cfd",
+  "title": "Mach 2.05 shock/boundary-layer interaction",
+  "type": "Experimental compressible-flow validation",
+  "summary": "Experimental uncertainty and baseline measurements for shock interaction with a turbulent boundary layer at Mach 2.05.",
+  "sources": [
+    {
+      "label": "NASA Turbulence Modeling Resource",
+      "url": "https://www.nasa.gov/reference/turbulence-modeling-resource-large-files/"
+    }
+  ],
+  "files": [
+    {
+      "name": "uq-experiment.zip",
+      "url": "https://www.nasa.gov/wp-content/uploads/2025/10/uq-experiment.zip",
+      "size_bytes": 54397190,
+      "description": "Experimental uncertainty-quantification data."
+    },
+    {
+      "name": "baseline-experiments-3mm-and-5mm-ramps.zip",
+      "url": "https://www.nasa.gov/wp-content/uploads/2025/10/baseline-experiments-3mm-and-5mm-ramps.zip",
+      "size_bytes": 93995444,
+      "description": "Baseline measurements for the 3 mm and 5 mm ramp configurations."
+    }
+  ]
+}

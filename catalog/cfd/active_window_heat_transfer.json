@@ -1,0 +1,29 @@
+{
+  "name": "active_window_heat_transfer",
+  "category": "cfd",
+  "title": "Active-window heat-transfer experiment",
+  "type": "Experimental thermal validation",
+  "summary": "Thermal maps, heat-flux measurements, passive-window reference data, and sensor logs for an actively heated triple-glazing unit.",
+  "sources": [
+    {
+      "label": "Zenodo record",
+      "url": "https://zenodo.org/records/18652632"
+    }
+  ],
+  "files": [
+    {
+      "name": "dataset-information.txt",
+      "url": "https://zenodo.org/records/18652632/files/DATASET%20INFORMATION%20SMART%20WINDOWS1.txt?download=1",
+      "size_bytes": 6075,
+      "description": "Dataset description and measurement information."
+    },
+    {
+      "name": "active-window-data.xlsx",
+      "url": "https://zenodo.org/records/18652632/files/Dataset_Heat_Transfer_Active_Window_NCN_Miniatura_ROS_2025.xlsx?download=1",
+      "size_bytes": 38185,
+      "description": "Experimental heat-transfer measurements in spreadsheet form."
+    }
+  ],
+  "doi": "10.5281/zenodo.18652632",
+  "license": "CC BY 4.0"
+}
